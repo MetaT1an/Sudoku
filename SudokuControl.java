@@ -1,4 +1,4 @@
-package six;
+package sudoku;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -10,7 +10,7 @@ this class is designed to organize all the elements when playing
 add some events on the game
  */
 public class SudoGame extends Application{
-    private SudoUI ui = new SudoUI();
+    private SudokuUI ui = new SudokuUI();
 
     public void start(Stage stage){
         ui.init();
