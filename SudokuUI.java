@@ -27,7 +27,7 @@ public class SudokuUI {
     private TextField[] grid;
 
     public SudokuUI(){
-        this.rule = new Sudo();
+        this.rule = new Sudoku();
         this.infoCenter = new GridPane();
         this.board = new GridPane();
         this.frame = new BorderPane();
