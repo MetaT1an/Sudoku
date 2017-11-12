@@ -1,17 +1,17 @@
-package six;
+package sudoku;
 
 import java.util.Arrays;
 /*
 this class is designed to generate one solution of Sudo,
 to mask several numbers at random in all 81 numbers to raise a Sudo problem,
-to define the rules to check whether the numbers inputted by user are correct
+to define the rules to check whether the numbers filled by user are correct
  */
-public class Sudo{
+public class Sudoku{
     private int[][] solution;
 
     //initialize the sudoku according to
     //-the regularity of the sum of i and j
-    public Sudo(){
+    public Sudoku(){
         solution = new int[9][];
 
         for(int i = 0;i<9;i++){
