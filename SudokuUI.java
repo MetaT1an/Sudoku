@@ -1,4 +1,4 @@
-package six;
+package sudoku;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -13,8 +13,8 @@ this class is designed to add UI elements of the plain Sudo game
 define the simple rules of the users' operation on ui
 and the layout of all these elements
  */
-public class SudoUI {
-    private Sudo rule;
+public class SudokuUI {
+    private Sudoku rule;
     private Font fontButton;
     private Font fontDigit;
 
@@ -26,7 +26,7 @@ public class SudoUI {
     private Button[] control;
     private TextField[] grid;
 
-    public SudoUI(){
+    public SudokuUI(){
         this.rule = new Sudo();
         this.infoCenter = new GridPane();
         this.board = new GridPane();
